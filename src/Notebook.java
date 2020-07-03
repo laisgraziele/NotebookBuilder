@@ -1,11 +1,11 @@
 
 public class Notebook {
 	
-	private String memoriaRam; 
-	private String hd;
-	private String nome;
-	private String processador;
-	private String marca ; 
+	private String memoriaRam = ""; 
+	private String hd = "";
+	private String nome = "";
+	private String processador = "";
+	private String marca = "" ; 
 	
 	
 	public Notebook() {
@@ -13,6 +13,7 @@ public class Notebook {
 	}
 	
 	public void setMarca(String marca) {
+		this.marca = marca;
 	}
 	
 	public void setMemoriaRam(String memoriaRam) {
@@ -34,7 +35,7 @@ public class Notebook {
 	
 	public String toString() {
 		
-		return "Notebook [nome = " + nome + "Marca =" + marca + "Memória RAM = " + memoriaRam + "HD =" + hd + "Processador =" + processador + "]";
+		return "Notebook [nome =  " + nome + "| Marca = " + marca + "| MemÃ³ria RAM = " + memoriaRam + "| HD = " + hd + "| Processador = " + processador + "]";
 	}
 	
 	
